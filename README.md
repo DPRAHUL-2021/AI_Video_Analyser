@@ -1,35 +1,35 @@
-# AI Video Analyser
+<h1 align="center">
+  <img src="https://img.icons8.com/color/96/000000/artificial-intelligence.png" width="48" alt="AI Icon" />
+  <br>
+  <b>Aiveo</b>
+</h1>
+<p align="center">
+  <b>AI-powered Video Analytics Platform</b><br>
+  <i>Upload, analyze, and visualize video data with deep learning, all in real time.</i>
+</p>
 
-**AI Video Analyser** is a full-stack application for real-time video analytics, combining a modern Next.js dashboard with a Python-based deep learning video processing pipeline. This project enables users to upload, analyze, and visualize video data using state-of-the-art AI models, all through a beautiful, responsive web interface.
-
----
-
-## Table of Contents
-
-- [Features](#features)
-- [Architecture](#architecture)
-- [Tech Stack](#tech-stack)
-- [Folder Structure](#folder-structure)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
-
----
-
-## Features
-
-- 🎥 **Video Upload & Streaming**: Upload videos for analysis or stream live feeds.
-- 🧠 **AI-Powered Analytics**: Detect, classify, and extract insights from video frames using deep learning.
-- 📊 **Interactive Dashboard**: Visualize analytics results in real-time with charts and tables.
-- ⚡ **Fast & Responsive UI**: Built with Next.js, Tailwind CSS, and modern React components.
-- 🔌 **Modular Python Pipeline**: Easily extend detection/classification logic in Python.
-- 🛡️ **Production-Ready**: Scalable, maintainable, and easy to deploy.
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-Frontend-blue?logo=next.js" />
+  <img src="https://img.shields.io/badge/Python-Backend-yellow?logo=python" />
+  <img src="https://img.shields.io/badge/OpenCV-Video%20Processing-green?logo=opencv" />
+  <img src="https://img.shields.io/badge/TailwindCSS-UI-blueviolet?logo=tailwindcss" />
+  <img src="https://img.shields.io/badge/License-MIT-success?logo=license" />
+</p>
 
 ---
 
-## Architecture
+## ✨ Features
+
+- 🎥 **Video Upload & Streaming** — Upload videos for analysis or stream live feeds.
+- 🧠 **AI-Powered Analytics** — Detect, classify, and extract insights from video frames using deep learning.
+- 📊 **Interactive Dashboard** — Visualize analytics results in real-time with beautiful charts and tables.
+- ⚡ **Fast & Responsive UI** — Built with Next.js, Tailwind CSS, and modern React components.
+- 🔌 **Modular Python Pipeline** — Easily extend detection/classification logic in Python.
+- 🛡️ **Production-Ready** — Scalable, maintainable, and easy to deploy.
+
+---
+
+## 🏗️ Architecture
 
 ```
 +---------------------------+         +-----------------------------+
@@ -39,24 +39,25 @@
 +---------------------------+         +-----------------------------+
 ```
 
-- **Frontend**: Next.js app for user interaction, video upload, and analytics visualization.
-- **Backend**: Python pipeline for decoding, detecting, and classifying video frames.
+- **Frontend:** Next.js app for user interaction, video upload, and analytics visualization.
+- **Backend:** Python pipeline for decoding, detecting, and classifying video frames.
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-- **Frontend**: [Next.js](https://nextjs.org/), [React](https://react.dev/), [Tailwind CSS](https://tailwindcss.com/), [Lucide Icons](https://lucide.dev/)
-- **Backend**: Python 3, OpenCV, Deep Learning frameworks (customizable)
-- **Build Tools**: pnpm, PostCSS
-- **Other**: Webpack, SWC, Redux Thunk (for state management)
+| Layer      | Technology                                                                 |
+|------------|----------------------------------------------------------------------------|
+| Frontend   | [Next.js](https://nextjs.org/) · [React](https://react.dev/) · [Tailwind CSS](https://tailwindcss.com/) · [Lucide Icons](https://lucide.dev/) |
+| Backend    | Python 3 · [OpenCV](https://opencv.org/) · Deep Learning frameworks         |
+| Tooling    | pnpm · PostCSS · Webpack · SWC · Redux Thunk                               |
 
 ---
 
-## Folder Structure
+## 📁 Folder Structure
 
 ```
-AI_Video_Analyser/
+Aiveo/
 │
 ├── ai-video-analytics-dashboard/   # Next.js frontend
 │   ├── app/                       # App directory (Next.js routing)
@@ -81,25 +82,25 @@ AI_Video_Analyser/
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
-### 1. Clone the Repository
+### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/ai-video-analyser.git
-cd ai-video-analyser
+git clone https://github.com/yourusername/aiveo.git
+cd aiveo
 ```
 
-### 2. Setup the Frontend
+### 2️⃣ Setup the Frontend
 
 ```bash
 cd ai-video-analytics-dashboard
 pnpm install
 pnpm dev
 ```
-- The dashboard will be available at `http://localhost:3000`
+- The dashboard will be available at [http://localhost:3000](http://localhost:3000)
 
-### 3. Setup the Backend
+### 3️⃣ Setup the Backend
 
 ```bash
 cd ../dl_streamer_pipeline
@@ -112,24 +113,24 @@ python main.py
 
 ---
 
-## Usage
+## 🧑‍💻 Usage
 
-1. **Open the Dashboard**: Go to `http://localhost:3000`
-2. **Upload a Video**: Use the upload interface to select a video file.
-3. **View Analytics**: Watch as the dashboard displays real-time analytics, charts, and detected objects.
-4. **Explore Results**: Download reports or view frame-by-frame analysis.
-
----
-
-## Customization
-
-- **Add New Models**: Extend `detector.py` or `classifier.py` in `dl_streamer_pipeline` to add new AI models.
-- **UI Customization**: Modify components or styles in `ai-video-analytics-dashboard/components` and `styles`.
-- **API Integration**: Update API endpoints in the frontend to match your backend configuration.
+1. **Open the Dashboard:** Go to [http://localhost:3000](http://localhost:3000)
+2. **Upload a Video:** Use the upload interface to select a video file.
+3. **View Analytics:** Watch as the dashboard displays real-time analytics, charts, and detected objects.
+4. **Explore Results:** Download reports or view frame-by-frame analysis.
 
 ---
 
-## Contributing
+## 🎨 Customization
+
+- 🏷️ **Add New Models:** Extend `detector.py` or `classifier.py` in `dl_streamer_pipeline` to add new AI models.
+- 🎨 **UI Customization:** Modify components or styles in `ai-video-analytics-dashboard/components` and `styles`.
+- 🔗 **API Integration:** Update API endpoints in the frontend to match your backend configuration.
+
+---
+
+## 🤝 Contributing
 
 Contributions are welcome! Please open issues or submit pull requests for new features, bug fixes, or improvements.
 
@@ -141,13 +142,13 @@ Contributions are welcome! Please open issues or submit pull requests for new fe
 
 ---
 
-## License
+## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## Acknowledgements
+## 🙏 Acknowledgements
 
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
@@ -157,8 +158,10 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-**Made with ❤️ for AI-powered video analytics.**
+<p align="center">
+  <b>Made with <span style="color: #e25555;">❤️</span> for AI-powered video analytics.</b>
+</p>
 
 ---
 
-> _For any questions or support, please open an
+> _For any questions or support, please open an issue on

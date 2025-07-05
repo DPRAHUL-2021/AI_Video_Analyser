@@ -142,12 +142,6 @@ Contributions are welcome! Please open issues or submit pull requests for new fe
 
 ---
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## 🙏 Acknowledgements
 
 - [Next.js](https://nextjs.org/)
@@ -164,4 +158,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-> _For any questions or support, please open an issue on
+> _For any questions or support, please open an issue on GitHub._

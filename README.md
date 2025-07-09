@@ -122,6 +122,13 @@ python main.py
 
 ---
 
+## 🎥 Video Demo
+
+> Watch the full walkthrough of the project here:  
+> 📺 [Aiveo - Intel Unnati Project Demo](https://vimeo.com/1098976881?share=copy)
+
+---
+
 ## 🎨 Customization
 
 - 🏷️ **Add New Models:** Extend `detector.py` or `classifier.py` in `dl_streamer_pipeline` to add new AI models.
